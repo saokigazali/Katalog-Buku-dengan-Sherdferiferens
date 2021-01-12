@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/begron"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="My Library"
+        android:textSize="37sp"
+        android:fontFamily="@font/lobster"
+        android:textColor="#322D2D"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="140dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            >
+            <ImageButton
+                android:id="@+id/btn_akun"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00000000"
+                android:src="@drawable/ic_akun"
+                android:scaleType="centerInside"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Akun"
+                android:textColor="@color/black"
+                android:layout_marginTop="9dp"
+                android:layout_marginLeft="8dp"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/btn_my_book"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_my_book" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="9dp"
+                android:text="My Book"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_add_buku"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_add_book" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="9dp"
+                android:text="Add Book"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

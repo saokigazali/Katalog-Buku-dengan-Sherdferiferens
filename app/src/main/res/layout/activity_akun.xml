@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:gravity="center"
+    tools:context=".AkunActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        >
+        <ImageButton
+            android:id="@+id/btn_novel"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_akun"
+            android:scaleType="centerInside"
+            android:background="#00000000"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:text="My Akun"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:layout_marginBottom="10dip"
+            android:singleLine="true"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/lblAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:layout_marginBottom="10dip"
+            android:singleLine="true"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/lblEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="40dip"
+            android:singleLine="true"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Logout" />
+</LinearLayout>
